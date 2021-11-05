@@ -12,14 +12,14 @@ const Main = ({ children, router }) => {
         <meta name="author" content="Hassan" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@hassasa3" />
         <meta name="twitter:creator" content="@hassasa3" />
-        <meta name="twitter:image" content="/card.png" />
+        <meta name="twitter:image" content="/hassan.png" />
         <meta property="og:site_name" content="Hassan's Homepage" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/images/hassan.png" />
-        <title>Hassan - Homepage</title>
+        <meta property="og:image" content="/hassan.png" />
+        <title>Hassan</title>
       </Head>
 
       <NavBar path={router.asPath} />
