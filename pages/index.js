@@ -124,7 +124,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoTwitter} />}
               >
-                @hassasa3
+                Twitter
               </Button>
             </Link>
           </ListItem>
@@ -135,7 +135,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @yuta17
+                GitHub
               </Button>
             </Link>
           </ListItem>
@@ -146,7 +146,29 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<Icon as={IoDocumentOutline} />}
               >
-                @usabdelah
+                note
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://zenn.dev/hassan" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoDocumentOutline} />}
+              >
+                zenn
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://qiita.com/Hassan" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoDocumentOutline} />}
+              >
+                Qiita
               </Button>
             </Link>
           </ListItem>
