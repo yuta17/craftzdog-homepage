@@ -58,7 +58,7 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-          Ruby on Rails が好きなフリーランスのエンジニア。勢い余って法人化。プロダクトの開発が好きで、日々何を作ろうか考えたり、作ったりしている。最近は、暗号通貨やNFTに関心がある。
+          Ruby on Rails が好きなフリーランスのエンジニア。プロダクトの開発が好きで、日々何を作ろうか考えたり、作ったりしている。最近は、暗号通貨やNFTに関心がある。
         </Paragraph>
         <Box align="center" my={8}>
           <NextLink href="/works">
@@ -92,10 +92,6 @@ const Home = () => (
         <BioSection>
           <BioYear>2020</BioYear>
           Freelance
-        </BioSection>
-        <BioSection>
-          <BioYear>2021</BioYear>
-          ZITAN inc. (CEO)
         </BioSection>
       </Section>
 
