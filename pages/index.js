@@ -58,7 +58,7 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-          Ruby on Rails が好きなフリーランスのエンジニア。プロダクトの開発が好きで、日々何を作ろうか考えたり、作ったりしている。最近は、暗号通貨やNFTに関心がある。
+          Ruby on Rails が好きなフリーランスのエンジニア、個人開発者。プロダクトの開発が好きで、日々何を作ろうか考えたり、作ったりしている。最近は、暗号通貨やNFTに関心がある。
         </Paragraph>
         <Box align="center" my={8}>
           <NextLink href="/works">
@@ -100,7 +100,7 @@ const Home = () => (
           I Like ♥
         </Heading>
         <Paragraph>
-          囲碁(五段)、
+          個人開発、囲碁(五段)、
           <Link href="https://www.youtube.com/watch?v=7-InFoUHtO8" target="_blank">
             ピアノ
           </Link>
