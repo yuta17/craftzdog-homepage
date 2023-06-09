@@ -15,7 +15,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="klow" title="Klow" thumbnail={thumbKlow}>
-            勤怠から請求書・作業報告書を自動で作成するサービス。
+            フリーランス・副業のための勤怠管理サービス
           </WorkGridItem>
         </Section>
       </SimpleGrid>

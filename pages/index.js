@@ -176,7 +176,7 @@ const Home = () => (
             title="Klow"
             thumbnail={thumbKlow}
           >
-            勤怠から請求書・作業報告書を自動で生成するサービス
+            フリーランス・副業のための勤怠管理サービス
           </GridItem>
         </SimpleGrid>
       </Section>
