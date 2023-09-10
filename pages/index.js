@@ -104,7 +104,7 @@ const Home = () => (
           <Link href="https://www.youtube.com/watch?v=7-InFoUHtO8" target="_blank">
             ピアノ
           </Link>
-          、ポーカー、格闘技の観戦 (RIZIN)、散歩、蕎麦
+          、ポーカー、格闘技の観戦 (RIZIN)、自然
         </Paragraph>
       </Section>
 
