@@ -168,6 +168,17 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
+                    <ListItem>
+            <Link href="https://sizu.me/hassan" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoDocumentOutline} />}
+              >
+                しずかなインターネット
+              </Button>
+            </Link>
+          </ListItem>
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
