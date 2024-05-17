@@ -1,4 +1,3 @@
-import NextLink from 'next/link'
 import {
   Link,
   Container,
@@ -9,8 +8,8 @@ import {
   List,
   ListItem,
   Icon,
+  Image
 } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
@@ -47,9 +46,16 @@ const Home = () => (
             h="100px"
             display="inline-block"
             borderRadius="full"
-            src="/images/hassan.png"
-            alt="Profile image"
-          />
+            overflow="hidden"
+          >
+            <Image
+              src="/images/hassan.png"
+              alt="Profile image"
+              objectFit="cover" // 画像をボックス内に収める
+              w="100%"
+              h="100%"
+            />
+          </Box>
         </Box>
       </Box>
 
@@ -58,15 +64,8 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-          Ruby on Rails が好きなフリーランスのエンジニア、個人開発者。プロダクトの開発が好きで、日々何を作ろうか考えたり、作ったりしている。最近は、暗号通貨やNFTに関心がある。
+          Ruby on Rails が好きなフリーランスのエンジニア。最近は投資。長期はS&P500・暗号通貨(BTC/ETH)、スイングで日本個別株。
         </Paragraph>
-        <Box align="center" my={8}>
-          <NextLink href="/works">
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
-            </Button>
-          </NextLink>
-        </Box>
       </Section>
 
       <Section delay={0.2}>
@@ -90,7 +89,7 @@ const Home = () => (
           CAMPFIRE inc.
         </BioSection>
         <BioSection>
-          <BioYear>2020</BioYear>
+          <BioYear>2020 ~ 現在</BioYear>
           Freelance
         </BioSection>
       </Section>
@@ -100,11 +99,11 @@ const Home = () => (
           I Like ♥
         </Heading>
         <Paragraph>
-          個人開発、囲碁(五段)、
+          投資、個人開発、囲碁(五段)、
           <Link href="https://www.youtube.com/watch?v=7-InFoUHtO8" target="_blank">
             ピアノ
           </Link>
-          、ポーカー、格闘技の観戦 (RIZIN)、自然
+          、ポーカー、格闘技の観戦 (RIZIN)
         </Paragraph>
       </Section>
 
@@ -120,7 +119,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoTwitter} />}
               >
-                Twitter
+                X
               </Button>
             </Link>
           </ListItem>
@@ -168,7 +167,7 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-                    <ListItem>
+          <ListItem>
             <Link href="https://sizu.me/hassan" target="_blank">
               <Button
                 variant="ghost"
