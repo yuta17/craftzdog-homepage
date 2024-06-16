@@ -64,7 +64,7 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-          Ruby on Rails が好きなフリーランスのエンジニア。最近は投資。長期はS&P500・暗号通貨(BTC/ETH)、スイングで日本個別株。
+          Ruby on Rails が好きなフリーランスのエンジニア。最近は投資とトレード。長期は暗号通貨(ETH/BTC)、S&P500メイン。短期は日本株等。
         </Paragraph>
       </Section>
 
@@ -99,7 +99,7 @@ const Home = () => (
           I Like ♥
         </Heading>
         <Paragraph>
-          投資、個人開発、囲碁(五段)、
+          投資、株のトレード、個人開発、囲碁(五段)、
           <Link href="https://www.youtube.com/watch?v=7-InFoUHtO8" target="_blank">
             ピアノ
           </Link>
