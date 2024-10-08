@@ -64,7 +64,7 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-          Ruby on Rails が好きなフリーランスのエンジニア。最近は投資とトレード。長期は暗号通貨(ETH/BTC)、S&P500メイン。短期は日本株等。
+          Ruby on Rails が好きなフリーランスのエンジニア。最近は投資とトレード。長期は暗号通貨(BTC/ETH)、S&P500メイン。短期は日本株。
         </Paragraph>
       </Section>
 
