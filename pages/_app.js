@@ -10,7 +10,6 @@ if (typeof window !== 'undefined') {
 function Website({ Component, pageProps, router }) {
   return (
     <Chakra cookies={pageProps.cookies}>
-      <Fonts />
       <Layout router={router}>
         <AnimatePresence
           exitBeforeEnter
@@ -24,6 +23,7 @@ function Website({ Component, pageProps, router }) {
           <Component {...pageProps} key={router.route} />
         </AnimatePresence>
       </Layout>
+      <Fonts />
     </Chakra>
   )
 }
