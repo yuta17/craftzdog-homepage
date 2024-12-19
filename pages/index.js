@@ -15,11 +15,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import {
-  IoLogoTwitter,
-  IoDocumentOutline,
-  IoLogoGithub,
-} from 'react-icons/io5'
+import { IoLogoTwitter, IoDocumentOutline, IoLogoGithub } from 'react-icons/io5'
 import thumbKlow from '../public/images/works/klow.webp'
 
 const Home = () => (
@@ -64,7 +60,8 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-          Ruby on Rails が好きなフリーランスのエンジニア。最近は投資とトレード。長期はBTC、S&P500。短期は日本株。
+          Ruby on Rails
+          が好きなフリーランスのエンジニア。最近は投資とトレード。長期投資はビットコイン。トレードは日本・米国株。
         </Paragraph>
       </Section>
 
@@ -100,7 +97,10 @@ const Home = () => (
         </Heading>
         <Paragraph>
           投資、株のトレード、個人開発、囲碁(五段)、
-          <Link href="https://www.youtube.com/watch?v=7-InFoUHtO8" target="_blank">
+          <Link
+            href="https://www.youtube.com/watch?v=7-InFoUHtO8"
+            target="_blank"
+          >
             ピアノ
           </Link>
           、ポーカー、格闘技の観戦 (RIZIN)
@@ -181,11 +181,7 @@ const Home = () => (
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            href="https://klow.app"
-            title="Klow"
-            thumbnail={thumbKlow}
-          >
+          <GridItem href="https://klow.app" title="Klow" thumbnail={thumbKlow}>
             フリーランス・副業のための勤怠管理サービス
           </GridItem>
         </SimpleGrid>
