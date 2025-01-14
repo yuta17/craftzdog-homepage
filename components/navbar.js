@@ -1,5 +1,4 @@
 import Logo from './logo'
-import NextLink from 'next/link'
 import {
   Container,
   Box,
@@ -53,9 +52,9 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
-                </NextLink>
+                <MenuItem as={Link} href="/">
+                  About
+                </MenuItem>
               </MenuList>
             </Menu>
           </Box>
