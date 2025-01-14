@@ -1,10 +1,9 @@
 import Head from 'next/head'
-import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from '@vercel/analytics/react'
 
-const Main = ({ children, router }) => {
+const Main = ({ children, _ }) => {
   return (
     <Box as="main" pb={8}>
       <Head>
@@ -23,9 +22,7 @@ const Main = ({ children, router }) => {
         <title>Hassan</title>
       </Head>
 
-      <NavBar path={router.asPath} />
-
-      <Container maxW="container.md" pt={24}>
+      <Container maxW="container.md" pt={12}>
         {children}
 
         <Footer />
